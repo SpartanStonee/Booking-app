@@ -10,7 +10,7 @@ export const createHotel = async (req, res, next) => {
     } catch (err) {
         next(err);
     }
-}
+};
 
 export const updateHotel = async (req, res, next) => {
     try {
@@ -23,7 +23,7 @@ export const updateHotel = async (req, res, next) => {
     } catch (err) {
         next(err);
     }
-}
+};
 
 export const deleteHotel = async (req, res, next) => {
     try {
@@ -34,7 +34,7 @@ export const deleteHotel = async (req, res, next) => {
     } catch (err) {
         next(err);
     }
-}
+};
 
 export const getHotel = async (req, res, next) => {
     try {
@@ -45,7 +45,7 @@ export const getHotel = async (req, res, next) => {
     } catch (err) {
         next(err);
     }
-}
+};
 
 export const getHotels = async (req, res, next) => {
     try {
@@ -54,4 +54,4 @@ export const getHotels = async (req, res, next) => {
     } catch (err) {
         next(err);
     }
-}
+};
